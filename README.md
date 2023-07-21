@@ -1,1 +1,3 @@
-# ACTION
+# ACTION++: Improving Semi-supervised Medical Image Segmentation with Adaptive Anatomical Contrast
+This is the PyTorch implemention of our MICCAI 2023 paper **ACTION++: Improving Semi-supervised Medical Image Segmentation with Adaptive Anatomical Contrast**.
+by [Chenyu You](http://chenyuyou.me/), [Weicheng Dai](https://weichengdai1.github.io/), [Yifei Min](https://scholar.google.com/citations?user=pFWnzL0AAAAJ&hl=en/), [Lawrence Staib](https://medicine.yale.edu/profile/lawrence-staib/), [Jasjeet S. Sekhon](https://www.jsekhon.com/), and [James S. Duncan](https://medicine.yale.edu/profile/james-duncan/).
