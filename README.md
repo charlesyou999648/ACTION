@@ -1,8 +1,8 @@
 # ACTION Family
 
-This is the official PyTorch implementation of our IPMI 2023 and MICCAI 2023 papers by [Chenyu You](http://chenyuyou.me/), [Weicheng Dai](https://weichengdai1.github.io/), [Yifei Min](https://scholar.google.com/citations?user=pFWnzL0AAAAJ&hl=en/), [Lawrence Staib](https://medicine.yale.edu/profile/lawrence-staib/), [Jasjeet S. Sekhon](https://www.jsekhon.com/), and [James S. Duncan](https://medicine.yale.edu/profile/james-duncan/):
+This is the official PyTorch implementation of our IPMI 2023  [![arXiv](https://img.shields.io/badge/arXiv-2206.02307-b31b1b.svg)](https://arxiv.org/abs/2206.02307) and MICCAI 2023  [![arXiv](https://img.shields.io/badge/arXiv-2304.02689-b31b1b.svg)](https://arxiv.org/abs/2304.02689) papers by [Chenyu You](http://chenyuyou.me/), [Weicheng Dai](https://weichengdai1.github.io/), [Yifei Min](https://scholar.google.com/citations?user=pFWnzL0AAAAJ&hl=en/), [Lawrence Staib](https://medicine.yale.edu/profile/lawrence-staib/), [Jasjeet S. Sekhon](https://www.jsekhon.com/), and [James S. Duncan](https://medicine.yale.edu/profile/james-duncan/):
 
-> [**Bootstrapping Semi-supervised Medical Image Segmentation with Anatomical-Aware Contrastive Distillation**](https://arxiv.org/abs/2206.02307)       
+> [**Bootstrapping Semi-supervised Medical Image Segmentation with Anatomical-Aware Contrastive Distillation**](https://arxiv.org/abs/2206.02307)      
 > Chenyu You, Weicheng Dai, Yifei Min, Lawrence Staib, James S. Duncan        
 > *In International Conference on Information Processing in Medical Imaging (IPMI), 2023*
 
