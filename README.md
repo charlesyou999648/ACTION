@@ -1,6 +1,36 @@
-# ACTION++: Improving Semi-supervised Medical Image Segmentation with Adaptive Anatomical Contrast
-This is the PyTorch implemention of our MICCAI 2023 paper **ACTION++: Improving Semi-supervised Medical Image Segmentation with Adaptive Anatomical Contrast**.
-by [Chenyu You](http://chenyuyou.me/), [Weicheng Dai](https://weichengdai1.github.io/), [Yifei Min](https://scholar.google.com/citations?user=pFWnzL0AAAAJ&hl=en/), [Lawrence Staib](https://medicine.yale.edu/profile/lawrence-staib/), [Jasjeet S. Sekhon](https://www.jsekhon.com/), and [James S. Duncan](https://medicine.yale.edu/profile/james-duncan/).
+# ACTION Family
 
-## Abstract
-> Medical data often exhibits long-tail distributions with heavy class imbalance, which naturally leads to difficulty in classifying the minority classes (i.e., boundary regions or rare objects). Recent work has significantly improved semi-supervised medical image segmentation in long-tailed scenarios by equipping them with unsupervised contrastive criteria. However, it remains unclear how well they will perform in the labeled portion of data where class distribution is also highly imbalanced. In this work, we present ACTION++, an improved contrastive learning framework with adaptive anatomical contrast for semi-supervised medical segmentation. Specifically, we propose an adaptive supervised contrastive loss, where we first compute the optimal locations of class centers uniformly distributed on the embedding space (i.e., off-line), and then perform online contrastive matching training by encouraging different class features to adaptively match these distinct and uniformly distributed class centers. Moreover, we argue that blindly adopting a constant temperature $\tau$ in the contrastive loss on long-tailed medical data is not optimal, and propose to use a dynamic $\tau$ via a simple cosine schedule to yield better separation between majority and minority classes. Empirically, we evaluate ACTION++ on ACDC and LA benchmarks and show that it achieves state-of-the-art across two semi-supervised settings. Theoretically, we analyze the performance of adaptive anatomical contrast and confirm its superiority in label efficiency.
+This is the official PyTorch implementation of our IPMI 2023 and MICCAI 2023 papers by [Chenyu You](http://chenyuyou.me/), [Weicheng Dai](https://weichengdai1.github.io/), [Yifei Min](https://scholar.google.com/citations?user=pFWnzL0AAAAJ&hl=en/), [Lawrence Staib](https://medicine.yale.edu/profile/lawrence-staib/), [Jasjeet S. Sekhon](https://www.jsekhon.com/), and [James S. Duncan](https://medicine.yale.edu/profile/james-duncan/):
+
+> [**Bootstrapping Semi-supervised Medical Image Segmentation with Anatomical-Aware Contrastive Distillation**](https://arxiv.org/abs/2206.02307)       
+> Chenyu You, Weicheng Dai, Yifei Min, Lawrence Staib, James S. Duncan        
+> *In International Conference on Information Processing in Medical Imaging (IPMI), 2023*
+
+We have another improved 2D/3D framework **ACTION++** accepted by MICCAI 2023:
+
+> **[ACTION++: Improving Semi-supervised Medical Image Segmentation with Adaptive Anatomical Contrast](https://arxiv.org/abs/2304.02689)** </br>
+> Chenyu You, Weicheng Dai, Yifei Min, Lawrence Staib, Jasjeet S. Sekhon, James S. Duncan</br>
+> *In International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023*
+
+
+## Citation
+
+If you find this project useful, please consider citing:
+
+```bibtex
+@inproceedings{you2023bootstrapping,
+  title={Bootstrapping semi-supervised medical image segmentation with anatomical-aware contrastive distillation},
+  author={You, Chenyu and Dai, Weicheng and Min, Yifei and Staib, Lawrence and Duncan, James S},
+  booktitle={IPMI},
+  year={2023}
+}
+
+@inproceedings{you2023actionplus,
+  title={Action++: Improving semi-supervised medical image segmentation with adaptive anatomical contrast},
+  author={You, Chenyu and Dai, Weicheng and Min, Yifei and Staib, Lawrence and Sekhon, Jas and Duncan, James S},
+  booktitle={MICCAI},
+  year={2023}
+}
+```
+
+
