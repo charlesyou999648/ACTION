@@ -10,7 +10,7 @@ We have another improved 2D/3D framework **ACTION++** accepted by MICCAI 2023:
 
 > **[ACTION++: Improving Semi-supervised Medical Image Segmentation with Adaptive Anatomical Contrast](https://arxiv.org/abs/2304.02689)** </br>
 > Chenyu You, Weicheng Dai, Yifei Min, Lawrence Staib, Jasjeet S. Sekhon, James S. Duncan</br>
-> *In International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023*
+> *In International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023* [Early Accept]
 
 
 ## Citation
